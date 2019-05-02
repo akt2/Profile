@@ -1,7 +1,7 @@
 
 #navy {
     z-index: +1;
-    padding: 10px 16px;
+    padding: 10px 30px;
     background: #555;
     color: #f1f1f1;
 }
@@ -9,12 +9,15 @@
   padding: 10px 16px;
   background: rgb(43, 206, 179);
   color: #f1f1f1;
-  size:
+  font-weight: bold;
+}
+body{
+  background-color:rgb(231, 230, 230);
 }
 p{
     text-align: center;
 }
-.card-header{
+.h5{
   color: rgb(43, 206, 179)
 }
 #theader-row {
@@ -24,9 +27,16 @@ p{
 }
 .container {
     padding: 16px;
+    background-color: white;
 }
 td{
     padding: 10px;
+}
+footer{
+  background-color: rgb(43, 206, 179);
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 .sticky {
     position: fixed;
