@@ -14,6 +14,9 @@
 p{
     text-align: center;
 }
+.card-header{
+  color: rgb(43, 206, 179)
+}
 #theader-row {
     padding: 10px 16px;
   background: rgb(43, 206, 179);
