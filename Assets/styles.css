@@ -1,4 +1,35 @@
-h1 {
-    color: slategrey;
+
+#navy {
+    z-index: +1;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
 }
-p{margin-top: 10%;color:rgb(93, 145, 93);font-family: Arial, Helvetica, sans-serif;}
+.navbar-brand {
+  padding: 10px 16px;
+  background: rgb(43, 206, 179);
+  color: #f1f1f1;
+  size:
+}
+p{
+    text-align: center;
+}
+#theader-row {
+    padding: 10px 16px;
+  background: rgb(43, 206, 179);
+  color: #f1f1f1;
+}
+.container {
+    padding: 16px;
+}
+td{
+    padding: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.sticky + .container {
+    padding-top: 102px;
+  }  
